@@ -1,0 +1,69 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    flex-direction: column;
+    gap: 40px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e6f0fa;
+}
+
+.overhead {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 70vh;
+    background-color: rgb(149, 185, 232);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.container {
+    gap: 20px;
+     width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card {
+    background: #007bff;
+   
+    border-radius: 10px;
+    color: white;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.text h2 {
+    font-size: 1.2em;
+    margin: 0 0 10px 0;
+}
+
+.text p {
+    font-size: 0.9em;
+    color: #27578c;
+    margin: 0;
+}
